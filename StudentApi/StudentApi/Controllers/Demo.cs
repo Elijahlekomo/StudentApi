@@ -7,5 +7,12 @@ namespace StudentApi.Controllers
     [ApiController]
     public class Demo : ControllerBase
     {
+        [HttpGet]
+        public string Greetings()
+        {
+            return "hello there";
+        }
+
     }
 }
+ 
